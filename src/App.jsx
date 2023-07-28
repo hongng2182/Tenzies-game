@@ -2,10 +2,7 @@ import { useState, useEffect } from 'react'
 import './css/App.css'
 import { nanoid } from 'nanoid'
 import Confetti from 'react-confetti'
-import Title from './components/Title'
-import Die from './components/Die'
-import Badge from './components/badge'
-import Stats from './components/Stats'
+import {Title, Die, Badge, Stats} from './components'
 
 function App() {
   const NumOfDice = 10;
